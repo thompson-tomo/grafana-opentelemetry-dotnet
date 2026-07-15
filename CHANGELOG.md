@@ -2,6 +2,18 @@
 
 ## Unreleased version
 
+## 1.10.1
+
+### Bug Fixes
+
+* Use 1.16.0-beta.2 of OpenTelemetry.Instrumentation.Hangfire ([#614](https://github.com/grafana/grafana-opentelemetry-dotnet/pull/614))
+  * Fixed `NullReferenceException` in the metrics filter when a job's definition
+    cannot be resolved.
+    ([#4713](https://github.com/open-telemetry/opentelemetry-dotnet-contrib/pull/4713))
+* Use 1.16.0-beta.2 of OpenTelemetry.Resources.Host ([#614](https://github.com/grafana/grafana-opentelemetry-dotnet/pull/614))
+  * Specify full path for `ioreg` command on macOS.
+    ([#4760](https://github.com/open-telemetry/opentelemetry-dotnet-contrib/pull/4760))
+
 ## 1.10.0
 
 ### BREAKING CHANGES
